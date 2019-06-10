@@ -13,3 +13,19 @@ spring:
           password:
           search-paths: resources
       label: master
+
+evn: dev
+
+--
+# test
+spring:
+  profiles: test
+
+evn: test
+
+--
+# prep
+spring:
+  profiles: prep
+
+evn: prep
